@@ -26,7 +26,7 @@ let products =[
         Incart: 0
     },
     {
-        name:'BROCOLLI ',
+        name:'BROCOLLI',
         prise:'50',
         Incart: 0
     },
@@ -205,7 +205,7 @@ if(cartItems && productConitainer)
                 from the countries</p>
             </td>
 
-            <td style="color: black; padding-right: 2em; font-weight: 700;">₹${item.prise}.00</td>
+            <td style="color: black; padding-right: 2em; font-weight: 700;">Rs ${item.prise}.00</td>
 
             <td>
               <div class="input-group mb-3">
@@ -214,7 +214,7 @@ if(cartItems && productConitainer)
               </div>
             </td>
 
-            <td style="color: black; padding-left: 4em; font-weight: 700;" class="total">₹${item.prise * item.Incart}.00</td>
+            <td style="color: black; padding-left: 4em; font-weight: 700;" class="total">Rs ${item.prise * item.Incart}.00</td>
 
           </tr><!-- END TR-->
         </tbody>
